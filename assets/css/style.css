@@ -1,0 +1,40 @@
+body {
+    background-image: url("../images/court.png");
+    color: white;
+    text-align: left;
+    font-family: 'Kreon', serif;
+}
+
+.logo{
+    margin-top: 40px;
+    font-size: 80px;
+    color: orange;
+}
+
+#game-start{
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+#countdown {
+    font-size: 26px;
+    color:rgb(201, 12, 12);
+}
+
+#game-done {
+    font-size: 40px;
+}
+
+.lead2 {
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.quest {
+    font-size: 26px;
+    color: wheat;
+}
+
+.text-mysize {
+    font-size: 20px;
+}
