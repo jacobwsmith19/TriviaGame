@@ -6,33 +6,60 @@ body {
 }
 
 .logo{
+    font-family: 'Bungee Shade', cursive;
     margin-top: 40px;
-    font-size: 80px;
+    font-size: 108px;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#start {
+    color: orange;
+}
+
+#done {
     color: orange;
 }
 
 #game-start{
     margin-top: 70px;
     font-size: 40px;
+    font-size: 40px;
+    border: rgb(0, 255, 55) solid;
+    border-width: 3px;
 }
 
 #countdown {
-    font-size: 26px;
-    color:rgb(201, 12, 12);
+    font-size: 32px;
+    color: orange;
+    font-family: 'Kreon', serif;
+    text-align: center;
+    background-color: rgb(214, 236, 132);
+    border-radius: 20px;
+}
+
+#timer {
+    color: rgb(27, 218, 21);
 }
 
 #game-done {
     font-size: 40px;
+    border: rgb(0, 255, 55) solid;
+    border-width: 2px;
 }
 
 .lead2 {
-    font-size: 30px;
-    color: goldenrod;
+    font-size: 36px;
+    color: rgb(162, 248, 1);
 }
 
 .quest {
-    font-size: 26px;
-    color: wheat;
+    font-size: 30px;
+    color: rgb(255, 251, 1);
+    margin-bottom; 3px;
 }
 
 .text-mysize {
