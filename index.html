@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
     <!-- link to Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Kreon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
 </head>
     <body class="text-center">
 
@@ -19,93 +20,80 @@
           <!-- initial page -->
                 <main role="main" class="inner cover">
                         <h1 class="logo">NBA Trivia</h1>
-                        <p class="lead btn btn-lg btn-danger" id="game-start">Start</p>
-                        <div class="col-lg-4 col-lg-offset-4 text-center">
-                            <p id="countdown">Time Remaining:<span id="timer"></span></p>
+                        <p class="lead btn btn-lg btn-danger" id="game-start"><span id="start">Start Shot Clock</span></p>
+                        <div class="col-lg-12 text-center">
+                            <p id="countdown">Shot Clock:<span id="timer"></span></p>
                         </div>
                 </main>
                 
                 <!-- trivia questions page -->
-                <div class="trivia-ques text-center">
+                <div class="trivia-ques text-left col-6 align-self-center">
                     <p class="quest">1. Which team drafted Kobe Bryant?</p>
                     <form class="question">
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="correct"> Charlotte Hornets
+                          <input type="radio" name="optradio" class="optradio" value="correct"> &nbsp Charlotte Hornets &nbsp
                         </label>
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> Los Angeles Lakers
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> &nbsp Los Angeles Lakers &nbsp
                         </label>
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> Philadelphia 76ers  
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> &nbsp Philadelphia 76ers &nbsp
                         </label>
                     </form>
-
+                    <p></p>
                     <p class="quest">2. Which team won the 1994 NBA Championship?</p>
                     <form class="question">
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="correct"> Houston Rockets  
+                          <input type="radio" name="optradio" class="optradio" value="correct">&nbsp Houston Rockets &nbsp 
                         </label>
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> Chicago Bulls  
+                          <input type="radio" name="optradio" class="optradio" value="wrong">&nbsp Chicago Bulls &nbsp 
                         </label>
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> Detroit Pistons  
+                          <input type="radio" name="optradio" class="optradio" value="wrong">&nbsp Detroit Pistons &nbsp
                         </label>
                     </form>
-
+                    <p></p>
                     <p class="quest">3. What is the record for most assists in a single game?</p>
                     <form class="question">
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> 40 
+                          <input type="radio" name="optradio" class="optradio" value="wrong">&nbsp 40 &nbsp
                         </label>
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="correct"> 30  
+                          <input type="radio" name="optradio" class="optradio" value="correct">&nbsp 30 &nbsp  
                         </label>
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> 35
+                          <input type="radio" name="optradio" class="optradio" value="wrong">&nbsp 35 &nbsp
                         </label>
                     </form>
-
+                    <p></p>
                     <p class="quest">4. Has there ever been a quintiple-double?</p>
                     <form class="question">
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> Yes  
+                          <input type="radio" name="optradio" class="optradio" value="wrong">&nbsp Yes &nbsp
                         </label>
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="correct"> No  
+                          <input type="radio" name="optradio" class="optradio" value="correct">&nbsp No &nbsp
                         </label>
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> What's a quintiple-double? 
+                          <input type="radio" name="optradio" class="optradio" value="wrong">&nbsp What's a quintiple-double? &nbsp
                         </label>
                     </form>
-
-                    <p class="quest">5. How many different teams did Jim Jackson play for?</p>
+                    <p></p>
+                    <p class="quest">5. Who led the NBA in total blocks in 2001?</p>
                     <form class="question">
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> 8 
+                          <input type="radio" name="optradio" class="optradio" value="correct">&nbsp Shawn Bradley &nbsp 
                         </label>
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="correct"> 12  
+                          <input type="radio" name="optradio" class="optradio" value="wrong">&nbsp Manute Bol &nbsp
                         </label>
                         <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> 16  
+                          <input type="radio" name="optradio" class="optradio" value="wrong">&nbsp Marcus Camby &nbsp
                         </label>
                     </form>
-
-                    <p class="quest">6. Who led the NBA in total blocks in 2001?</p>
-                    <form class="question">
-                        <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="correct"> Shawn Bradley  
-                        </label>
-                        <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> Manute Bol 
-                        </label>
-                        <label class="form-check form-check-inline text-mysize">
-                          <input type="radio" name="optradio" class="optradio" value="wrong"> Marcus Camby
-                        </label>
-                    </form>
-
-                    <p class="quest">7. Who has played int he most regular season games?</p>
+                    <p></p>
+                    <!-- <p class="quest">7. Who has played int he most regular season games?</p>
                     <form class="question">
                         <label class="form-check form-check-inline text-mysize">
                           <input type="radio" name="optradio" class="optradio" value="correct"> Robert Parish  
@@ -129,19 +117,18 @@
                         <label class="form-check form-check-inline text-mysize">
                           <input type="radio" name="optradio" class="optradio" value="wrong"> 89%     
                         </label>
-                    </form>
+                    </form> -->
                 
                     <!-- Done Button -->
                     <div>
-                        <p class="lead btn btn-lg btn-danger" id="game-done">Done
-                        </p>
+                        <p class="lead btn btn-lg btn-danger" id="game-done"><span id="done">Done</span></p>
                     </div>
                 </div>
 
                   <!-- Last page with Summary of results -->
                     <div class="results">
-                        <p class="lead2" id="summary">All Done!</p> 
-                        <p class="lead2" id="correctScore">Correct Answers:</p>
+                        <p class="lead2" id="summary">You're out of time!</p> 
+                        <p class="lead2" id="correctScore"></p>
                         <p class="lead2" id="wrongScore"></p>
                         <p class="lead2" id="unanswered"></p>
                     </div>

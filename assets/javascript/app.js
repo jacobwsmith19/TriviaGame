@@ -1,12 +1,12 @@
 $(document).ready(function() {
     
-    // hide timer and questions when page loads
+    // hide timer, questions, and results
         $('#countdown').hide();
         $('.trivia-ques').hide();
         $('.results').hide();
     
     // variables
-        var number = 90; //number of seconds
+        var number = 25; // number of seconds - will display 24 initially
         var intervalId;
         var correctCount = 0;
         var wrongCount = 0;
@@ -14,7 +14,7 @@ $(document).ready(function() {
     
     // functions
     
-        // shows questions
+        // shows timer, questions, and results
         function showQuestions(){
             $('#countdown').show();
             $('.trivia-ques').show();
@@ -55,7 +55,7 @@ $(document).ready(function() {
         // function to display summary of game
         function displaySummary(){
             $('.results').show();
-            unanswered = (8 - (correctCount + wrongCount));
+            unanswered = (5 - (correctCount + wrongCount));
             $('#correctScore').text("Correct Answers:" + " " + correctCount); 
             $('#wrongScore').text("Wrong Answers:" + " " + wrongCount); 
             $('#unanswered').text("Unanswered:" + " " + unanswered); 
@@ -81,7 +81,7 @@ $(document).ready(function() {
         $('input[type=radio]').on ('change', function(){
         correctCount = $('input[value=correct]:checked').length;
         wrongCount = $('input[value=wrong]:checked').length;
-        unanswered = (8-(correctCount+wrongCount));
+        unanswered = (5-(correctCount+wrongCount));
         });
     
     });
